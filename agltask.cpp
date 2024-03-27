@@ -19,10 +19,10 @@ int main(int argc, char *argv[]) {
 
     QLabel label("Hello! My Name is Anuj Solanki. \n This is my AGL Task. \n I am a 3rd year CSE student at IIT Mandi. \n I am proficient in App development and Machine Learning. \n I am looking forward to working with AGL. \n Thank You!");
     label.setAlignment(Qt::AlignCenter);
-    label.setStyleSheet("font-size: 20pt; color: white;");
+    label.setStyleSheet("font-size: 20pt; color: black;");
 
     QVBoxLayout layout;
-    layout.addWidget(&label, 1, Qt::AlignBottom);
+    layout.addWidget(&label, 1, Qt::AlignCenter);
 
     QWidget window;
     window.resize(1080,1488);
